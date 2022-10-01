@@ -29,23 +29,25 @@
 
 // Выводите, сколько осталось в результате всех операций денег у пользователя.
 
-let salary = Number(prompt("Bвести сумму  зарплаты"));
+// let salary = Number(prompt("Bвести сумму  зарплаты"));
 
-const bonus = Number(prompt("Bвести процент  премии")) / 100;
-const bonusOfSalari = salary * bonus;
-salary = salary * bonus + salary;
-alert(`Премия ${bonusOfSalari} На руки ${salary}`);
+// const bonus = Number(prompt("Bвести процент  премии")) / 100;
+// const bonusOfSalari = salary * bonus;
+// salary = salary * bonus + salary;
+// alert(`Премия ${bonusOfSalari} На руки ${salary}`);
 
-const tax = Number(prompt("Bвести процент  Налоги")) / 100;
-const taxOfSaolari = salary * tax;
-salary = salary - salary * tax;
-alert(`Налоги ${taxOfSaolari} На руки ${salary}`);
+// const tax = Number(prompt("Bвести процент  Налоги")) / 100;
+// const taxOfSaolari = salary * tax;
+// salary = salary - salary * tax;
+// alert(`Налоги ${taxOfSaolari} На руки ${salary}`);
 
-const spend = Number(prompt("Bвести Трату в магазине в сумме"));
-salary = salary - spend;
-alert(`В магазине ${spend} Осталось ${salary}`);
+// const spend = Number(prompt("Bвести Трату в магазине в сумме"));
+// salary = salary - spend;
+// alert(`В магазине ${spend} Осталось ${salary}`);
 
-console.log(salary);
-salary = salary / 2;
-alert(`Жене половину отдал осталось ${salary}`);
-console.log(salary);
+// console.log(salary);
+// salary = salary / 2;
+// alert(`Жене половину отдал осталось ${salary}`);
+// console.log(salary);
+
+//Попросіть користувача ввести фразу і всі перші букви слів замінити на букви в верхньому регістрі.
