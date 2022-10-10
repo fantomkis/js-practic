@@ -51,3 +51,19 @@
 // console.log(salary);
 
 //Попросіть користувача ввести фразу і всі перші букви слів замінити на букви в верхньому регістрі.
+
+const input = prompt("веди фразу");
+console.log(input);
+
+const sliceIndex = input.indexOf(" ");
+
+const firstVerb = input.slice(0, sliceIndex);
+
+const secondVerb = input.slice(sliceIndex + 1);
+
+const normalizeFirst = firstVerb[0].toUpperCase() + firstVerb.slice(1);
+const normalizeSecond = secondVerb[0].toUpperCase() + secondVerb.slice(1);
+console.log(normalizeSecond);
+const inputUpdite = normalizeFirst + " " + normalizeSecond;
+
+console.log(inputUpdite);
