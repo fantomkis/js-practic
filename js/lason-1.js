@@ -52,10 +52,10 @@
 
 //Попросіть користувача ввести фразу і всі перші букви слів замінити на букви в верхньому регістрі.
 
-const input = prompt("веди фразу");
-console.log(input);
+// const input = prompt("веди фразу");
+// console.log(input);
 
-const sliceIndex = input.indexOf(" ");
+// const sliceIndex = input.indexOf(" ");
 
 const firstVerb = input.slice(0, sliceIndex);
 
