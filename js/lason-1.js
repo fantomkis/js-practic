@@ -57,13 +57,13 @@
 
 // const sliceIndex = input.indexOf(" ");
 
-const firstVerb = input.slice(0, sliceIndex);
+// const firstVerb = input.slice(0, sliceIndex);
 
-const secondVerb = input.slice(sliceIndex + 1);
+// const secondVerb = input.slice(sliceIndex + 1);
 
-const normalizeFirst = firstVerb[0].toUpperCase() + firstVerb.slice(1);
-const normalizeSecond = secondVerb[0].toUpperCase() + secondVerb.slice(1);
-console.log(normalizeSecond);
-const inputUpdite = normalizeFirst + " " + normalizeSecond;
+// const normalizeFirst = firstVerb[0].toUpperCase() + firstVerb.slice(1);
+// const normalizeSecond = secondVerb[0].toUpperCase() + secondVerb.slice(1);
+// console.log(normalizeSecond);
+// const inputUpdite = normalizeFirst + " " + normalizeSecond;
 
-console.log(inputUpdite);
+// console.log(inputUpdite);
